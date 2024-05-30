@@ -35,6 +35,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "UCI",
+    location: "Senior Software Developer",
+    description:
+      "Wrote an ETL tool to grab data from APIs, transform it, and insert it into our database. Used .Net Core, C#, Entity Framework and SQL Server.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017 - 2019",
+  },
+  {
     title: "Global Logic",
     location: "Senior Software Developer",
     description:
@@ -49,6 +57,14 @@ export const experiencesData = [
       "Worked with Node.js/Typescript and C#/.Net 3.1 to build  AWS Lambdas using API Gateway. Worked with different AWS Services, such as DynamoDB, SQS, S3, MQTT, IoT, RDS, Aurora Serverless, etc.",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2021",
+  },
+  {
+    title: "CBS Interactive",
+    location: "Senior Software Developer",
+    description:
+      "Wrote severla ETL tools to grab data from APIs, transform it, and insert it into our database. Also wrote some Lambdas and updated a legacy system from on prem SQL Server to a cloud based MySQL instance. Used .Net Core, C#, Entity Framework and SQL Server.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020 - 2022",
   },
   {
     title: "Apprentice.io",
@@ -143,4 +159,8 @@ export const skillsData = [
   "LLM Agents",
   "Prompt Engineering",
   "Framer Motion",
+  "C#",
+  "ASP.NET",
+  "Entity Framework",
+  ".NET Core",
 ] as const;
