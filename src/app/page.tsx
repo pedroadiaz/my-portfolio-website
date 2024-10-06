@@ -1,4 +1,5 @@
 import About from "@/components/about";
+import Cerfications from "@/components/certifications";
 import Contact from "@/components/contact";
 import Experience from "@/components/experience";
 import Intro from "@/components/intro";
@@ -13,6 +14,7 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Projects />
+      <Cerfications />
       <Skills />
       <Experience />
       <Contact />
