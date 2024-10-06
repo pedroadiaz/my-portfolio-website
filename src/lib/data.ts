@@ -3,8 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import developerassociate from "@/public/aws-certified-developer-associate.png"; 
+import aipractitioner from "@/public/aws-certified-ai-practitioner.png";
 
 export const links = [
   {
@@ -18,6 +19,10 @@ export const links = [
   {
     name: "Projects",
     hash: "#projects",
+  },
+  {
+    name: "Certifications",
+    hash: "#certifications",
   },
   {
     name: "Skills",
@@ -114,6 +119,17 @@ export const projectsData = [
     ],
     imageUrl: wordanalyticsImg,
   },
+] as const;
+
+export const certificationsData = [
+  {
+    title: "AWS Certified Developer - Associate",
+    imageUrl: developerassociate
+  },
+  {
+    title: "AWS Certified AI Practitioner",
+    imageUrl: aipractitioner
+  }
 ] as const;
 
 export const skillsData = [
